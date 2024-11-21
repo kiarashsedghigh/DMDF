@@ -2,7 +2,10 @@ import random
 
 prompt_starters = [
 	"Generate text based on the: ",
-	"Continute the following text: ",
+	"Continue the following text: ",
+	"What is your idea about this text: ",
+	"Expand more of the idea of: ",
+	"Write your opinion about: "
 ]
 
 def create_prompt(input_ctx):

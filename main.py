@@ -6,7 +6,7 @@ for i in range(0,40):
 	print(file_path)
 	
 	## Adding the prompt to the previous C4 texts
-	# make_prompt_real_prompt(file_path)
+	make_prompt_real_prompt(file_path)
 
 	## Removing the textwm field of the json record
 	remove_textwm_inplace(file_path)
